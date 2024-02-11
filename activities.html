@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hara gezmeye</title>
+	<style>
+		body {
+			text-align: center;
+            margin-top: 30px;
+            font-family: 'Courier';
+            background-color:#FFF5E4;
+            color: #FF9494;
+		}
+		#activityquestion {
+			font-size: 50px;
+            margin-bottom: 30px;
+		}
+		.activity-item {
+            display: inline-block;
+            margin: 10px;
+            vertical-align: top;
+			color: #FF9494;
+        }
+        .activity-item img {
+            width: 220px; 
+            height: auto;
+			padding: 10px;
+        }
+        .activity-item label {
+            display: block;
+        }
+		.button {
+            padding: 10px 20px;
+            font-size: 18px;
+            cursor: pointer;
+            margin: 10px;
+            font-family: 'courier';
+            margin-bottom: 20px;
+            background-color:#FFE3E1;
+            color: #e67373;
+            border-radius: 12px;
+            border: 2px solid #FFE3E1;
+        }
+	</style>
+</head>
+<body>
+	<div id="activityquestion"><b>Sonra hara getmek isteyirsen?</b>
+	</div>
+	<div class = "activities-selection">
+		<div class="activity-item">
+			<img src="activities/attraksionlar.jpg" alt ="attraksionlar">
+			<label><input type="checkbox" name="activities" value ="attraksionlar">attraksionlar</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/boulinq.jpg" alt ="boulinq">
+			<label><input type="checkbox" name="activities" value ="boulinq">boulinq (oynaya bilmirem ona gore oyret plz)</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/cinema.jpeg" alt ="cinema">
+			<label><input type="checkbox" name="activities" value ="cinema">cinema</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/bilyard.jpg" alt ="bilyard">
+			<label><input type="checkbox" name="activities" value ="bilyard">bilyard</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/seherdegezmek.jpg" alt ="seherdegezmek">
+			<label><input type="checkbox" name="activities" value ="seherdegezmek">Şeherde gezmek</label>
+		</div>
+		<div class="activity-item">
+			<img src="activities/park.jpg" alt ="park.jpgg">
+			<label><input type="checkbox" name="activities" value ="park.jpg">park</label>
+		</div>
+	</div>
+	<button class = "button" onclick="location.href='lastpage.html'">son sehife</button>
+</body>
+</html>
